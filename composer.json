@@ -1,0 +1,23 @@
+{
+    "name": "aminulbd/dotbd",
+    "description": "BTCL Domain checker",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^7.0",
+        "symfony/dom-crawler": "^5.1",
+        "symfony/css-selector": "^5.1"
+    },
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Aminul Islam",
+            "email": "me@aminul.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "AminulBD\\DotBD\\": "src/"
+        }
+    }
+}
