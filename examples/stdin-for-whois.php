@@ -49,7 +49,7 @@ service whois
 WHMCS Integration: resources/domains/dist.whois.json
 
 {
-"extensions": ".com.bd,.net.bd,.org.bd,.edu.bd,.co.bd,.mil.bd,.gov.bd,.ac.bd,.info.bd,.tv.bd,.sw.bd",
+    "extensions": ".com.bd,.net.bd,.org.bd,.edu.bd,.co.bd,.mil.bd,.gov.bd,.ac.bd,.info.bd,.tv.bd,.sw.bd",
     "uri": "socket://YOUR_HOSTNAME_OR_IP",
     "available": "DOMAIN IS AVAILABLE FOR REGISTER."
 }
